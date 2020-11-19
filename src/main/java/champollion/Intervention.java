@@ -18,7 +18,7 @@ public class Intervention {
     private final Date debut = new Date();
     public boolean annulee;
 
-    public Intervention(String s, int c, int duree, boolean annulee, SimpleDateFormat debut, String intituleUE) {
+    public Intervention(String s, int c, int duree, Date debut) {
         this.duree = duree;
         this.annulee = annulee;
 
@@ -29,7 +29,7 @@ public class Intervention {
     }
 
     public boolean annulee() {
-        if(Intervention == null) {
+        if(intervention == null) {
             return true;
         }
         return false;

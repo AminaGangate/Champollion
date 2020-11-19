@@ -15,7 +15,7 @@ public class Enseignant extends Personne {
     }
 
     public void ajouteIntervention() {
-        intervention.add(s, u, e, deb, duree);
+        intervention.add(s, u, e, debut, duree );
     }
 
     /**
@@ -44,8 +44,7 @@ public class Enseignant extends Personne {
      *
      */
     public int heuresPrevuesPourUE(UE ue) {
-        // TODO: Implémenter cette méthode
-        throw new UnsupportedOperationException("Pas encore implémenté");
+
     }
 
     public int heuresPlanifiees() {
