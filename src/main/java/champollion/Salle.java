@@ -14,9 +14,9 @@ public class Salle {
      private String myIntitule;
     private int capacite;
 
-    public Salle(String intituleSalle, int capacite) {
-        myIntitule = intituleSalle;
-        this.capacite = capacite;
+    public Salle(String s, int c) {
+        myIntitule = s;
+        this.capacite = c;
 
     }
 

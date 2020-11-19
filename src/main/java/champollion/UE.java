@@ -3,8 +3,8 @@ package champollion;
 public class UE {
     private final String myIntitule;
 
-    public UE(String intitule) {
-        myIntitule = intitule;
+    public UE(String intituleUE) {
+        myIntitule = intituleUE;
     }
 
     public String getIntitule() {
